@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spanky</title>
+    <link rel="shortcut icon" type="image" href="images/favicon.png" title="favicon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/menu-script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo">SPANK<span class="radio">RADIO</span></li>
+                <li class="dropdown"><button onclick="myTopMenuFunction()" class="dropbtn"><i class="fa fa-list-ul" style="font-size:15px;color:#777777"></i> By Type<i class="fa fa-caret-down" style="font-size:15px;color:#777777"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">DJ Mixes</a>
+                        <a href="#about">Songs</a>
+                    </div>
+                </li>
+                <li class="searchbox">
+                    <form>
+                        <input type="text" placeholder="Search here" name="search">
+                        <button type="submit"><i class="fa fa-search" style="font-size:15px;color:#ddd"></i></button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <!-- Mobile Top Navigation Menu -->
+        <div class="topnav">
+            <a href="#home" class="active">SPANK<span class="radio">RADIO</span></a>
+            <div id="myLinks">
+                <li class="dropdown" style="width: 100%"><button onclick="myTopMenuFunction()" class="dropbtn"><i class="fa fa-list-ul" style="font-size:15px;color:#777777"></i> By Type <i class="fa fa-caret-down" style="font-size:15px;color:#777777"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">DJ Mixes</a>
+                        <a href="#about">Songs</a>
+                    </div>
+                </li>
+                    <form class="searchbox" style="width: 100%;">
+                        <input type="text" placeholder="Search here" name="search">
+                        <button type="submit"><i class="fa fa-search" style="font-size:15px;color:#ddd"></i></button>
+                    </form>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myMobileFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <!--        Main Content-->
+    <div class="container">
+        <table class="music">
+            <thead>
+                <tr>
+                    <th><i class="fa fa-music" title="tracks"></i> Song</th>
+                    <th><i class="fa fa-calendar" title="upload date"></i> Date</th>
+                    <th><i class="fa fa-download" title="Downloads"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#">6ix9ine Nicki Minaj - TROLLZ with</a></td>
+                    <td> 17 June 02:20</td>
+                    <td>289</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Drake - Toosie Slide</a></td>
+                    <td> 11 June 11:50</td>
+                    <td>206</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Harry Styles Watermelon Sugar</a></td>
+                    <td> 05 June 02:59</td>
+                    <td>201</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Megan Thee Stallion &amp; Beyoncé Savage</a></td>
+                    <td> 04 June 02:32</td>
+                    <td>216</td>
+                </tr>
+                <tr>
+                    <td><a href="#">6ix9ine - GOOBA</a></td>
+                    <td> 04 June 01:00</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td><a href="#">After You (feat_ AJ Mitchell) Meghan Trainor</a></td>
+                    <td> 19 February 01:52</td>
+                    <td>167</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Another Opinion Meghan Trainor</a></td>
+                    <td> 19 February 01:52</td>
+                    <td>127</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Ashes Meghan Trainor</a></td>
+                    <td> 19 February 01:52</td>
+                    <td>134</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Blink Meghan Trainor</a></td>
+                    <td> 19 February 01:52</td>
+                    <td>164</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Evil Twin Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>144</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Genetics (feat_ Pussycat)Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>104</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Have You Now Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>154</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Here To Stay Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>114</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Lie To Me Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>141</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Nice to Meet Ya (feat_ Nicki Minaj) Meghan Trainor</a></td>
+                    <td> 19 February 01:51</td>
+                    <td>194</td>
+                </tr>
+                <tr>
+                    <td><a href="#">No Excuses Meghan Trainor</a></td>
+                    <td> 19 February 01:50</td>
+                    <td>119</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Wave (feat_ Mike Sabath) Meghan Trainor</a></td>
+                    <td> 19 February 01:50</td>
+                    <td>169</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Workin' On It (feat_ Lennon Stella &amp; Sasha Sloan) Meghan Trainor</a></td>
+                    <td> 19 February 01:50</td>
+                    <td>189</td>
+                </tr>
+                <tr>
+                    <td><a href="#">What A Man Gotta Do Jonas Brothers</a></td>
+                    <td> 15 February 16:34</td>
+                    <td>134</td>
+                </tr>
+                <tr>
+                    <td><a href="#">Bad guy Billie Eilish</a></td>
+                    <td> 15 February 16:07</td>
+                    <td>120</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="footer-items">
+                    <h1>Spanky</h1>
+                    <p>For MP3 Fans</p>
+                </div>
+
+                <div class="footer-items">
+                    <h2>Other Links</h2>
+                    <div class="border">
+                        <ul>
+                            <a href="#">
+                                <li>Home</li>
+                            </a>
+                            <a href="#">
+                                <li>Contact</li>
+                            </a>
+                            <a href="#">
+                                <li>DMCA</li>
+                            </a>
+                            <a href="#">
+                                <li>VIP&nbsp;Membership</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-items">
+                    <h2>Parthers</h2>
+                    <div class="border">
+                        <ul>
+                            <a href="#">
+                                <li>spankradio.cz</li>
+                            </a>
+                            <a href="#">
+                                <li>spankradio.uk</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-items">
+                    <h2>Connect</h2>
+                    <div class="border">
+                        <ul>
+                            <a href="#">
+                                <li>Twitter</li>
+                            </a>
+                            <a href="#">
+                                <li>Facebook</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Spanky <script>
+                    document.write(new Date().getFullYear())
+                </script>. All rights reserved
+            </div>
+        </div>
+    </footer>
+</body></html>
